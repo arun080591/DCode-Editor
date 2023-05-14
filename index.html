@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style sheet  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon icon link  -->
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/c020bfb50f.js" crossorigin="anonymous"></script>
+
+    <title>DCode</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label class="html-code"><i class="fa-brands fa-html5"></i> HTML</label>
+            <textarea id="html" onkeyup="run()"></textarea>
+
+            <label class="css-code"><i class="fa-brands fa-css3-alt"></i> CSS</label>
+            <textarea id="css" onkeyup="run()"></textarea>
+
+            <label class="js-code"><i class="fa-brands fa-js"></i> JavaScript</label>
+            <textarea id="js" onkeyup="run()"></textarea>         
+        </div>
+        <div class="right">
+            <label class="output"><i class="fa-solid fa-play"></i> Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+    <!-- JavaScript file link  -->
+    <script src="./script.js"></script>
+</body>
+</html>
