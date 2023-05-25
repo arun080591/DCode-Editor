@@ -11,7 +11,7 @@ The Code Editor is a simple web-based application for writing and executing HTML
 - Responsive design.
 
 ## Screenshot
-![image](https://github.com/aruncode49/DCode-Editor/assets/112400317/34e55a3f-5465-4fd9-9afa-be54133ef983)
+![image](https://github.com/aruncode49/DCode-Editor/assets/112400317/da80c876-f54a-41e3-a2f4-cbb3a2ea76ed)
 
 ## Usage
 1. Open the Code Editor in your browser.
