@@ -11,3 +11,19 @@ function run()
     output.contentDocument.body.innerHTML = htmlCode + "<style>" + cssCode + "</style>";
     output.contentWindow.eval(jsCode);
 }
+
+setTimeout(function() {
+    document.querySelector('#html-transition').classList.add('active');
+  }, 600);
+
+setTimeout(function() {
+    document.querySelector('#css-transition').classList.add('active');
+  }, 700);
+
+setTimeout(function() {
+    document.querySelector('#js-transition').classList.add('active');
+  }, 800);
+
+setTimeout(function() {
+    document.querySelector('#output-transition').classList.add('active');
+  }, 900);
