@@ -10,6 +10,9 @@ The Code Editor is a simple web-based application for writing and executing HTML
 - Clear editor and output sections.
 - Responsive design.
 
+## Screenshot
+![image](https://github.com/aruncode49/DCode-Editor/assets/112400317/34e55a3f-5465-4fd9-9afa-be54133ef983)
+
 ## Usage
 1. Open the Code Editor in your browser.
 2. Write HTML, CSS, and JavaScript code in their respective input areas.
